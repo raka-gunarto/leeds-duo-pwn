@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "Leeds Duo Pwn",
+  "description": "Make Duo think you have a Mac for WebAuthn on adfs.leeds.ac.uk authentication",
+  "version": "1.0.0",
+  "permissions": ["webRequest", "webRequestBlocking"],
+  "host_permissions": [
+    "*://adfs.leeds.ac.uk/*",
+    "*://api-894eebdb.duosecurity.com/*"
+  ],
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "icons": {
+    "48": "icon-48.png",
+    "128": "icon-128.png"
+  }
+}
