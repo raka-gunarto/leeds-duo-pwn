@@ -8,6 +8,7 @@ Introducing UA spoofing! We trick duo thinking that we have a Mac, and since it 
 
 ## Setup Instructions
 
+[UPDATE] This is now a [Chrome Webstore Extension](https://chrome.google.com/webstore/detail/leeds-duo-pwn/cjfhehmfdbbnkikllnohilpfccbeomea?hl=en&authuser=0)! Pass GO, collect happiness, and skip steps 1 & 2.
 1. Clone this repository or download it zipped, extract to chosen directory
 2. Go to extensions, turn on developer mode and choose "Load unpacked extension". Select the folder you placed the files in
 3. Go to "Sign-in options" in Windows, if you don't have a fingerprint scanner or a Windows Hello camera capable of facial recognition, be sure to enable Windows Hello PIN
