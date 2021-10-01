@@ -1,4 +1,8 @@
-chrome.webRequest.onBeforeSendHeaders.addListener(
+if (typeof browser === "undefined") {
+  var browser = chrome;
+}
+
+browser.webRequest.onBeforeSendHeaders.addListener(
   function (req) {
     for (let i = 0; i < req.requestHeaders.length; i++)
       if (req.requestHeaders[i].name === "User-Agent") {
